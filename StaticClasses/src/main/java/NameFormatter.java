@@ -27,8 +27,6 @@ public class NameFormatter {
             suffix=parts[3];
             return lastName+" "+firstName+" "+middleName+", "+suffix;
 
-
-
         }else if (parts.length==5 ){
             prefix=parts[0];
             firstName=parts[1];
